@@ -11,9 +11,6 @@ All thanks for this addon go to the author and creator.
 This plugin displays lists of movies classified into different categories.
 It tries to find these movies in your library so you can watch them without waiting.
 
-The lists presented have been scraped from reputable sites and converted into a JSON format usable by this plugin.
-The lists of movies are hosted on https://raw.githubusercontent.com/nanomani/jlom_lists/main/
-
 There are 2 types of lists:
 - list of folders : which are high-level lists to classify the movies https://github.com/Nanomani/jlom_lists/tree/main/en/folder_list
 - list of movies : the actual list of movies https://github.com/Nanomani/jlom_lists/tree/main/en/movie_list
