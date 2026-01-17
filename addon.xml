@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.jlom" version="0.1.12" name="Just Lists Of Movies" provider-name="lbnt">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.requests-cache"/>
+		<import addon="script.common.plugin.cache"/>
+		<import addon="script.globalsearch"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<summary lang="en_GB">Just Lists Of Movies</summary>
+		<description lang="en_GB">A plugin to help you choose a good movie to watch using recommendation lists from trusted sources.</description>
+		<description lang="fr_FR">Un plugin qui vous aide à choisir un bon film à regarder à partir de listes de recommandations provenant de sources fiables.</description>
+		<disclaimer lang="en_GB">This program uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</disclaimer>
+		<disclaimer lang="fr_FR">Ce programme utilise TMDB et les API TMDB, mais n'est pas approuvé, certifié ou autrement validé par TMDB.</disclaimer>
+		<license>GPL-3.0-only	</license>
+		<assets>
+			<icon>resources/images/icon.png</icon>
+			<screenshot>resources/images/screenshot01.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
