@@ -668,7 +668,7 @@ def router(paramstring):
     if not params:
         # If the plugin is called from Kodi UI without any parameters,
         # display the master list
-        list_folders(get_list("folder_list", "master"))
+        list_folders(get_list("folder_list", "0_root"))
     elif params['action'] == 'list_movies':
         # display a list of movies        
         list_movies(get_list("movie_list", params['id']))
