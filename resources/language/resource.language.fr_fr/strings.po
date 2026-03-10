@@ -61,3 +61,15 @@ msgctxt "#30104"
 msgid "API token"
 msgstr "Jeton d’API"
 
+msgctxt "#30010"
+msgid "Options"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Use local lists"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Hide movies not in library"
+msgstr "Masquer les films qui ne sont pas dans la médiathèque local"
+
